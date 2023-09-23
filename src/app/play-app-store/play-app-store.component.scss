@@ -1,0 +1,48 @@
+
+.play-app-store {
+    background-color: #8eb50b;
+    display:flex;
+
+    .food-finda-app {
+        margin-left: 7rem;
+        margin-top: 4rem;
+        h1 {
+            font-size: xxx-large;
+        }
+        p {
+            color:white;
+        }
+        .get-the {
+            color:white;
+        }
+        .finda-text {
+            margin-top: -1.5rem;
+        }
+        button {
+            margin-top: 3rem;
+            padding: 5px;
+            height: 3.5rem;
+            width: 11rem;
+            border: none;
+            margin-bottom: 6rem;
+        }
+        button:hover {
+            cursor: pointer;
+            background-color: #ffc107;
+            color:white;
+        }
+        .food-finda-app-logos {
+            margin-top: 2rem;
+            display:flex;
+            justify-content: space-between;
+            .app-store-logo {
+                margin-right: 3.5rem;
+            }
+        }
+    }
+    .mobile-app-img {
+        margin-top: 5rem;
+        margin-left: 3rem;
+        margin-bottom: 5rem;
+    }
+}

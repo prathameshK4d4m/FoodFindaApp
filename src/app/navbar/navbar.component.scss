@@ -1,0 +1,71 @@
+
+.navbar-top {
+    background-color: #8eb50b;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    img {
+        margin-top: 1rem;
+    }
+
+    img:hover {
+        cursor: pointer;
+    }
+    .call {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        color:white;
+        background-color: #252525;
+        padding: 9px;
+        margin-bottom: -6px;
+        width: 15rem;
+    }
+
+    .call:hover {
+        cursor: pointer;
+        color: #8eb50b;
+    }
+
+    fa-icon {
+        margin-right: 10px;
+    }
+
+    .email {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            color:white;
+            background-color: #252525;
+            padding: 9px;        
+            margin-bottom: -6px;
+            width: 15rem;
+    }
+    .email:hover {
+        cursor: pointer;
+        color: #8eb50b;
+    }
+}
+
+.navbar-contents {
+    color: white;
+    background-color: #252525;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    .login {
+        margin-left:5rem;
+    }
+    h3:hover {
+        cursor: pointer;
+        color:#8eb50b;
+    }
+    fa-icon:hover {
+        cursor: pointer;
+        color:#8eb50b;
+    }
+}

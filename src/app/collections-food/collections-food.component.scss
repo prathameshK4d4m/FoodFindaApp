@@ -1,0 +1,43 @@
+
+.collections-food-container {
+
+    h1 {
+        color: white;
+        font-weight: 900;
+        font-size: xxx-large;
+        margin-left:7rem
+    }
+
+    .collections-food-details {
+        margin-bottom: 4rem;
+        .blog-one {
+            display:flex;
+            justify-content: space-around;
+            img {
+                height: 23rem;
+                width: 43rem;
+                margin-bottom: 1rem;
+            }
+            h2 {
+                font-size: x-large;
+            }
+            button {
+                background-color: #8eb50b;
+                color: white;
+                padding: 13px;
+                width: 9rem;
+                border: none; 
+                margin-top: 1rem;  
+            }
+            button:hover {
+                cursor: pointer;
+                background-color: #ffc107;
+            }
+            .blog-one-content {
+                color:white;
+                margin-left: -12rem;
+                margin-top: 3rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+
+.quick-search-heading {
+    margin-left: 34rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    h1 {
+        color: white;
+        font-weight: 900;
+        font-size: xxx-large;
+    }
+}
+
+.quick-search-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem;
+    margin-bottom: 5rem;
+    img {
+        border: 1px solid white;
+        padding: 35px;
+        height: 5rem;
+        width: 5rem;
+
+    }
+    h2 {
+        color: white;
+        margin-left: 1.5rem;
+    }
+    button {
+        background-color: #8eb50b;
+        color: white;
+        padding: 13px;
+        width: 9rem;
+        border: none;   
+    }
+    button:hover {
+        cursor: pointer;
+        background-color: #ffc107;
+    }
+}

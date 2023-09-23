@@ -1,0 +1,71 @@
+
+
+.best-restaurants {
+    text-align: center;
+    margin-top: 8rem;
+    font-size: x-large;
+    color: white;
+}
+
+.your-city {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 16%;
+    height: 5rem;
+    border-radius: 6px;
+    margin-left: 37rem;
+    h1 {
+        color: #8eb50b;
+        font-weight: 900;
+        margin-bottom: 4rem;
+    }
+
+}
+
+.dropdown-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    select {
+        height:3.8rem;
+        width:12rem;
+        border: 1px solid white;
+        border-radius: 6px;
+        margin-right: 2rem;
+    }
+    input {
+        height: 3.5rem;
+        width: 40rem;
+        border: 1px solid white;
+        border-radius: 6px;
+    }
+    fa-icon {
+        margin-left: -2rem;
+        color: #252525;
+    }
+    fa-icon:hover {
+        cursor: pointer;
+    }
+}
+
+.order-now-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    .order-now {
+        padding: 1.5rem;
+        width: 11rem;
+        border-radius: 6px;
+        background-color: #8eb50b;
+        color: white;
+        font-size: 17px;
+        border:none;
+    }
+    .order-now:hover {
+        cursor: pointer;
+        color: #252525;
+        background-color: white;
+    }
+}

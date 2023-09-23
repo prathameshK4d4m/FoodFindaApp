@@ -1,0 +1,29 @@
+
+.footer-container {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+    .foodfinda-text{
+        color:white;
+    }
+    .navigation {
+        margin-left: -7rem;
+        color: white;
+    }
+    .discover {
+        color:white;
+    }
+    .contact-info {
+        .contact-info-text {
+            color:white;
+        }
+        .office-address-text {
+            color:#8eb50b;
+        }
+        .office-address-location {
+            display:flex;
+            align-items: baseline;
+        }
+    }
+}
